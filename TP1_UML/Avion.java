@@ -26,8 +26,12 @@ public class Avion implements Volador{
         this.flota = flota;
     }
 
-    public void agregarVuelo(Vuelo vuelo1){
-        this.vuelo = vuelo1;
+    public Vuelo getVuelo() {
+        return vuelo;
+    }
+
+    public void setVuelo(Vuelo vuelo) {
+        this.vuelo = vuelo;
     }
 
     @Override
